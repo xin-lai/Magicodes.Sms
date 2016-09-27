@@ -15,12 +15,13 @@ namespace Magicodes.Sms.Alidayu
     public class AlidayuSmsService : ISmsService
     {
         public LoggerBase Logger { get; set; }
-        private ITopClient client;
 
-        public AlidayuSmsService(LoggerBase logger, string serverUrl, string appkey, string secret)
+        private readonly ITopClient _client;
+
+        public AlidayuSmsService(LoggerBase logger, string appkey, string secret, string serverUrl = "http://gw.api.taobao.com/router/rest")
         {
             Logger = logger;
-            client = new DefaultTopClient(serverUrl, appkey, secret);
+            _client = new DefaultTopClient(serverUrl, appkey, secret);
         }
 
         public Task<SendResult> SendAsync(ServiceMessage message)
@@ -49,9 +50,9 @@ namespace Magicodes.Sms.Alidayu
                 RecNum = message.Destination,
                 SmsTemplateCode = message.TemplateCode,
             };
-            var rsp = client.Execute(req);
+            var rsp = _client.Execute(req);
             var result = new SendResult();
-            if (rsp.Result.Success)
+            if (rsp.Result != null && rsp.Result.Success)
             {
                 result.Success = true;
                 Logger.LogFormat(LoggerLevels.Debug, "短信发送成功!Data:{0}", message);

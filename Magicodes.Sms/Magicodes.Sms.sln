@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magicodes.Sms", "Magicodes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magicodes.Sms.Alidayu", "Magicodes.Sms.Alidayu\Magicodes.Sms.Alidayu.csproj", "{F3922E08-6BAE-404D-8B90-83C71206CB53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magicodes.Sms.Test", "Magicodes.Sms.Test\Magicodes.Sms.Test.csproj", "{3167185B-4FB0-4777-B683-D685F5EC0744}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F3922E08-6BAE-404D-8B90-83C71206CB53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3922E08-6BAE-404D-8B90-83C71206CB53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3922E08-6BAE-404D-8B90-83C71206CB53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3167185B-4FB0-4777-B683-D685F5EC0744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3167185B-4FB0-4777-B683-D685F5EC0744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3167185B-4FB0-4777-B683-D685F5EC0744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3167185B-4FB0-4777-B683-D685F5EC0744}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

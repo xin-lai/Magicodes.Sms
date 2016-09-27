@@ -34,6 +34,10 @@
       <HintPath>..\packages\Magicodes.Logger.1.0.6109.31628\lib\net45\Magicodes.Logger.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Magicodes.Sms, Version=1.0.0.20548, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Magicodes.Sms.1.0.0.20548\lib\net45\Magicodes.Sms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -313,12 +317,6 @@
     <Compile Include="sdk\Util\TopUtils.cs" />
     <Compile Include="sdk\Util\WebUtils.cs" />
     <Compile Include="sdk\Util\XmlWriter.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Magicodes.Sms\Magicodes.Sms.csproj">
-      <Project>{4FB5A5ED-1EC4-4D6A-AE2A-4BC9C466E67D}</Project>
-      <Name>Magicodes.Sms</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
