@@ -14,6 +14,7 @@
 // ======================================================================
 
 using System.Threading.Tasks;
+using Magicodes.Logger;
 
 namespace Magicodes.Sms
 {
@@ -23,17 +24,21 @@ namespace Magicodes.Sms
     public interface ISmsService
     {
         /// <summary>
+        /// 日志记录器
+        /// </summary>
+        LoggerBase Logger { get; set; }
+        /// <summary>
         ///     发送短信
         /// </summary>
         /// <param name="message">消息</param>
         /// <returns></returns>
-        Task SendAsync(ServiceMessage message);
+        Task<SendResult> SendAsync(ServiceMessage message);
 
         /// <summary>
         ///     发送模板消息（适用于阿里大鱼等）
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
-        Task SendTemplateMessageAsync(TemplateMessage message);
+        Task<SendResult> SendTemplateMessageAsync(TemplateMessage message);
     }
 }
