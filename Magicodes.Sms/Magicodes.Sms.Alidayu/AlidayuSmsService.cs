@@ -31,10 +31,11 @@ namespace Magicodes.Sms.Alidayu
 
         public Task<SendResult> SendTemplateMessageAsync(TemplateMessage message)
         {
-            if (message.Data == null || message.Data.Count == 0)
-            {
-                throw new ArgumentNullException("message.Data");
-            }
+            //没有模板数据也允许发送
+            //if (message.Data == null || message.Data.Count == 0)
+            //{
+            //    throw new ArgumentNullException("message.Data");
+            //}
 
             if (string.IsNullOrEmpty(message.SignName))
             {
@@ -46,7 +47,7 @@ namespace Magicodes.Sms.Alidayu
                 Extend = message.ExtendParam,
                 SmsType = "normal",
                 SmsFreeSignName = message.SignName,
-                SmsParam = SmsHelper.GetSmsParam(message.Data),
+                SmsParam = message.Data == null ? null : SmsHelper.GetSmsParam(message.Data),
                 RecNum = message.Destination,
                 SmsTemplateCode = message.TemplateCode,
             };

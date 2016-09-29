@@ -57,6 +57,7 @@ namespace Magicodes.Sms
             sb.AppendFormat("SignName:{0};", SignName);
             sb.AppendFormat("ExtendParam:{0};", ExtendParam);
             sb.AppendFormat("TemplateCode:{0};", TemplateCode);
+            sb.AppendLine();
             sb.AppendLine("Data:");
             sb.Append("{");
             foreach (var item in Data)

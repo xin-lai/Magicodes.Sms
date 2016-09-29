@@ -39,8 +39,8 @@
       <HintPath>..\packages\Magicodes.Logger.1.0.6109.31628\lib\net45\Magicodes.Logger.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Magicodes.Logger.DebugLogger, Version=1.0.6113.23657, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Magicodes.Logger.DebugLogger.1.0.6113.23657\lib\net45\Magicodes.Logger.DebugLogger.dll</HintPath>
+    <Reference Include="Magicodes.Logger.DebugLogger, Version=1.0.6114.26723, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Magicodes.Logger.DebugLogger.1.0.6114.26723\lib\net45\Magicodes.Logger.DebugLogger.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
