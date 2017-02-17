@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0-*",
+  "version": "1.0.1-*",
   "title": "Magicodes.Sms.Alidayu.Core",
-  "authors": [ "婀栧崡蹇冭幈淇℃伅绉戞妧鏈夐檺鍏徃" ],
-  "description": "闃块噷澶т簬鐭俊鎺ュ彛瀹炵幇搴擄紝鍩轰簬.Net Core",
+  "authors": [ "湖南心莱信息科技有限公司" ],
+  "description": "基于.NET Core实现的阿里大于短信库。\n官方网址：http://xin-lai.com \n开源库地址:https://github.com/xin-lai \n博客地址：http://www.cnblogs.com/codelove/ \n交流QQ群（Magicodes开源库交流群）：346487194 \n小店地址：https://shop113059108.taobao.com/",
   "dependencies": {
-    "Magicodes.Sms.Core": "1.0.0",
+    "Magicodes.Sms.Core": "1.0.1",
     "NETStandard.Library": "1.6.1"
   },
 
