@@ -1,12 +1,13 @@
 {
-  "version": "1.0.0-*",
-
+  "authors": [ "湖南心莱信息科技有限公司" ],
   "dependencies": {
-    "NETStandard.Library": "1.6.0"
+    "NETStandard.Library": "1.6.1"
   },
-
+  "description": "短信核心库，基于.Net Core。\n官方网址：http://xin-lai.com \n开源库地址:https://github.com/xin-lai \n博客地址：http://www.cnblogs.com/codelove/ \n交流QQ群（Magicodes开源库交流群）：346487194 \n小店地址：https://shop113059108.taobao.com/",
   "frameworks": {
     "net461": {
     }
-  }
+  },
+  "title": "Magicodes.Sms.Core",
+  "version": "1.0.0-*"
 }

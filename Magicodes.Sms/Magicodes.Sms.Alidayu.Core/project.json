@@ -1,9 +1,11 @@
 {
   "version": "1.0.0-*",
-
+  "title": "Magicodes.Sms.Alidayu.Core",
+  "authors": [ "湖南心莱信息科技有限公司" ],
+  "description": "阿里大于短信接口实现库，基于.Net Core",
   "dependencies": {
-    "Magicodes.Sms.Core": "1.0.0-*",
-    "NETStandard.Library": "1.6.0"
+    "Magicodes.Sms.Core": "1.0.0",
+    "NETStandard.Library": "1.6.1"
   },
 
   "frameworks": {
