@@ -1,11 +1,10 @@
 {
-  "version": "1.0.1-*",
+  "version": "1.0.4.0",
   "title": "Magicodes.Sms.Alidayu.Core",
-  "authors": [ "ºşÄÏĞÄÀ³ĞÅÏ¢¿Æ¼¼ÓĞÏŞ¹«Ë¾" ],
-  "description": "»ùÓÚ.NET CoreÊµÏÖµÄ°¢Àï´óÓÚ¶ÌĞÅ¿â¡£\n¹Ù·½ÍøÖ·£ºhttp://xin-lai.com \n¿ªÔ´¿âµØÖ·:https://github.com/xin-lai \n²©¿ÍµØÖ·£ºhttp://www.cnblogs.com/codelove/ \n½»Á÷QQÈº£¨Magicodes¿ªÔ´¿â½»Á÷Èº£©£º346487194 \nĞ¡µêµØÖ·£ºhttps://shop113059108.taobao.com/",
+  "authors": [ "æ¹–å—å¿ƒè±ä¿¡æ¯ç§‘æŠ€æœ‰é™å…¬å¸" ],
+  "description": "åŸºäº.NET Coreå®ç°çš„é˜¿é‡Œå¤§äºçŸ­ä¿¡åº“ã€‚\nå®˜æ–¹ç½‘å€ï¼šhttp://xin-lai.com \nå¼€æºåº“åœ°å€:https://github.com/xin-lai \nåšå®¢åœ°å€ï¼šhttp://www.cnblogs.com/codelove/ \näº¤æµQQç¾¤ï¼ˆMagicodeså¼€æºåº“äº¤æµç¾¤ï¼‰ï¼š346487194 \nå°åº—åœ°å€ï¼šhttps://shop113059108.taobao.com/",
   "dependencies": {
-    "Magicodes.Sms.Core": "1.0.1",
-    "NETStandard.Library": "1.6.1"
+    "Magicodes.Sms.Core": "1.0.4"
   },
 
   "frameworks": {

@@ -21,7 +21,7 @@ namespace Magicodes.Sms.Core
     /// <summary>
     ///     模板消息内容
     /// </summary>
-    public class TemplateMessage
+    public class TemplateSmsMessage
     {
         /// <summary>
         ///     接收服务目标，多个手机号码请用逗号分隔

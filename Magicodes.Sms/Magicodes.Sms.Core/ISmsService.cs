@@ -34,6 +34,6 @@ namespace Magicodes.Sms.Core
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
-        Task<SendResult> SendTemplateMessageAsync(TemplateMessage message);
+        Task<SendResult> SendTemplateMessageAsync(TemplateSmsMessage message);
     }
 }

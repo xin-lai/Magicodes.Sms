@@ -27,7 +27,7 @@ namespace Magicodes.Sms.Alidayu.Core
             throw new NotImplementedException();
         }
 
-        public Task<SendResult> SendTemplateMessageAsync(TemplateMessage message)
+        public Task<SendResult> SendTemplateMessageAsync(TemplateSmsMessage message)
         {
             //没有模板数据也允许发送
             //if (message.Data == null || message.Data.Count == 0)
