@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magicodes.Sms.Core", "Magic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magicodes.Sms.Alidayu.Core", "Magicodes.Sms.Alidayu.Core\Magicodes.Sms.Alidayu.Core.csproj", "{10B77DD7-ACAE-44D9-A4A2-16550337716D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magicodes.Sms.Aliyun", "Magicodes.Sms.Aliyun.Core\Magicodes.Sms.Aliyun.csproj", "{0B92CA49-C24F-4AF5-9AC4-B1DF4C3C1936}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magicodes.Sms.Aliyun", "Magicodes.Sms.Aliyun\Magicodes.Sms.Aliyun.csproj", "{0B92CA49-C24F-4AF5-9AC4-B1DF4C3C1936}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
