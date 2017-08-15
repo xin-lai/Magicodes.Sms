@@ -34,10 +34,6 @@
       <HintPath>..\packages\Magicodes.Logger.1.0.6109.31628\lib\net45\Magicodes.Logger.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Magicodes.Sms, Version=1.0.0.20548, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Magicodes.Sms.1.0.0.20548\lib\net45\Magicodes.Sms.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -51,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AlidayuSmsService.cs" />
-    <Compile Include="Helper\SmsHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sdk\Aliyun\AliyunResponse.cs" />
     <Compile Include="sdk\Aliyun\DefaultAliyunClient.cs" />
@@ -320,6 +315,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Magicodes.Sms\Magicodes.Sms.csproj">
+      <Project>{4fb5a5ed-1ec4-4d6a-ae2a-4bc9c466e67d}</Project>
+      <Name>Magicodes.Sms</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

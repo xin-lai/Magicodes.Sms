@@ -67,6 +67,10 @@
       <Project>{f3922e08-6bae-404d-8b90-83c71206cb53}</Project>
       <Name>Magicodes.Sms.Alidayu</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Magicodes.Sms.Aliyun.Core\Magicodes.Sms.Aliyun.csproj">
+      <Project>{0b92ca49-c24f-4af5-9ac4-b1df4c3c1936}</Project>
+      <Name>Magicodes.Sms.Aliyun</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Magicodes.Sms\Magicodes.Sms.csproj">
       <Project>{4fb5a5ed-1ec4-4d6a-ae2a-4bc9c466e67d}</Project>
       <Name>Magicodes.Sms</Name>
