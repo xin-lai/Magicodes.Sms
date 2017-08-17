@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>基于.NET Core实现的阿里大于短信库。
+官方网址：http://xin-lai.com 
+开源库地址:https://github.com/xin-lai 
+博客地址：http://www.cnblogs.com/codelove/ 
+交流QQ群（Magicodes开源库交流群）：346487194 
+小店地址：https://shop113059108.taobao.com/</Description>
+    <AssemblyTitle>Magicodes.Sms.Alidayu.Core</AssemblyTitle>
+    <VersionPrefix>1.0.4.0</VersionPrefix>
+    <Authors>湖南心莱信息科技有限公司</Authors>
+    <TargetFramework>net461</TargetFramework>
+    <AssemblyName>Magicodes.Sms.Alidayu.Core</AssemblyName>
+    <PackageId>Magicodes.Sms.Alidayu.Core</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Magicodes.Sms.Core\Magicodes.Sms.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>

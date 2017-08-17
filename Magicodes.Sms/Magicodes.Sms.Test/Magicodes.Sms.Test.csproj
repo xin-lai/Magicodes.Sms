@@ -35,9 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Magicodes.Logger, Version=1.0.6109.31628, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Magicodes.Logger.1.0.6109.31628\lib\net45\Magicodes.Logger.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Magicodes.Logger, Version=1.0.6290.30547, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Magicodes.Logger.1.0.6290.30547\lib\net45\Magicodes.Logger.dll</HintPath>
     </Reference>
     <Reference Include="Magicodes.Logger.DebugLogger, Version=1.0.6114.26723, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Magicodes.Logger.DebugLogger.1.0.6114.26723\lib\net45\Magicodes.Logger.DebugLogger.dll</HintPath>
@@ -66,6 +65,10 @@
     <ProjectReference Include="..\Magicodes.Sms.Alidayu\Magicodes.Sms.Alidayu.csproj">
       <Project>{f3922e08-6bae-404d-8b90-83c71206cb53}</Project>
       <Name>Magicodes.Sms.Alidayu</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Magicodes.Sms.Aliyun\Magicodes.Sms.Aliyun.csproj">
+      <Project>{0B92CA49-C24F-4AF5-9AC4-B1DF4C3C1936}</Project>
+      <Name>Magicodes.Sms.Aliyun</Name>
     </ProjectReference>
     <ProjectReference Include="..\Magicodes.Sms\Magicodes.Sms.csproj">
       <Project>{4fb5a5ed-1ec4-4d6a-ae2a-4bc9c466e67d}</Project>

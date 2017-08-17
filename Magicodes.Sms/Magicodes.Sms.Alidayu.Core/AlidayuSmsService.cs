@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Magicodes.Sms.Alidayu.Helper;
 using Taobao.Top.Link.Endpoints;
 using Top.Api;
 using Top.Api.Request;
 using Top.Api.Response;
 using Magicodes.Sms.Core;
+using Magicodes.Sms.Core.Helper;
 
 namespace Magicodes.Sms.Alidayu.Core
 {

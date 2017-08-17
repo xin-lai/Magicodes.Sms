@@ -15,12 +15,12 @@ namespace Magicodes.Sms.Test
             {
                 Data = new Dictionary<string, string>()
                 {
-                    {"code","8888"}
+                    {"code","188902"}
                 },
-                Destination = "13671974358",
+                Destination = "18090548343",
                 ExtendParam = "",
-                SignName = "雪雁",
-                TemplateCode = "SMS_16375221"
+                SignName = "荟书有信",
+                TemplateCode = "SMS_85685031"
             });
             Assert.IsTrue(result.Result.Success);
         }

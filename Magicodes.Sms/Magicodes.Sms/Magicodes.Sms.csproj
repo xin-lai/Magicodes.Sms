@@ -30,9 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Magicodes.Logger, Version=1.0.6109.31628, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Magicodes.Logger.1.0.6109.31628\lib\net45\Magicodes.Logger.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Magicodes.Logger, Version=1.0.6290.30547, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Magicodes.Logger.1.0.6290.30547\lib\net45\Magicodes.Logger.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helper\SmsHelper.cs" />
     <Compile Include="SendResult.cs" />
     <Compile Include="ServiceMessage.cs" />
     <Compile Include="ISmsService.cs" />
