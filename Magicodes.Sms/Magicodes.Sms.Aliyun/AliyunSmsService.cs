@@ -40,8 +40,16 @@ namespace Magicodes.Sms.Aliyun
                 request.OutId = client.AliyunSmsSettting.OutId;
                 //请求失败这里会抛ClientException异常
                 var sendSmsResponse = acsClient.GetAcsResponse(request);
-                AliyunSmsHelper.LoggerAction("Debug", sendSmsResponse.Message);
-                result.Success = true;
+                //发送成功判断
+                if ("OK".Equals(sendSmsResponse.Code, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    result.Success = true;
+                }
+                else
+                {
+                    result.Success = false;
+                    result.ErrorMessage = sendSmsResponse.Message;
+                }
             }
             catch (ClientException e)
             {
