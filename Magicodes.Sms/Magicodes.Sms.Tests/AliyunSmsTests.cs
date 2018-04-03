@@ -10,7 +10,8 @@ namespace Magicodes.Sms.Tests
 {
     public class AliyunSmsTests
     {
-        static AliyunSmsTests() => AliyunSmsBuilder.Create()
+        static AliyunSmsTests() =>
+            AliyunSmsBuilder.Create()
                 //设置日志记录
                 .WithLoggerAction((tag, message) =>
                 {
@@ -24,7 +25,7 @@ namespace Magicodes.Sms.Tests
 
 
         [Theory(DisplayName = "短信发送测试")]
-        [InlineData("13671974358", "1234")]
+        [InlineData("你的手机号码", "验证码")]
         public async Task SendCodeAsync_Test(string phone, string code)
         {
             var smsService = new AliyunSmsService();
