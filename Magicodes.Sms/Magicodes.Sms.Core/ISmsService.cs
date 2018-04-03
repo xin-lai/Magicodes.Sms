@@ -14,6 +14,7 @@
 // ======================================================================
 
 using System.Threading.Tasks;
+using Magicodes.Sms.Core.Models;
 
 namespace Magicodes.Sms.Core
 {
@@ -23,17 +24,18 @@ namespace Magicodes.Sms.Core
     public interface ISmsService
     {
         /// <summary>
-        ///     发送短信
+        ///     发送短信验证码
         /// </summary>
-        /// <param name="message">消息</param>
+        /// <param name="phone">手机号码</param>
+        /// <param name="code">短信验证码</param>
         /// <returns></returns>
-        Task<SendResult> SendAsync(ServiceMessage message);
+        Task<SendResult> SendCodeAsync(string phone, string code);
 
         /// <summary>
         ///     发送模板消息（适用于阿里大鱼等）
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
-        Task<SendResult> SendTemplateMessageAsync(TemplateSmsMessage message);
+        Task<SendResult> SendTemplateMessageAsync(SendTemplateMessageInput message);
     }
 }

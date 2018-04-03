@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Version>2.2.0</Version>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>
+      阿里云短信扩展库。
+      官方网址：http://xin-lai.com
+      开源库地址:https://github.com/xin-lai
+      博客地址：http://www.cnblogs.com/codelove/
+      交流QQ群：85318032
+      小店地址：https://shop113059108.taobao.com/
+    </Description>
+    <Company>湖南心莱信息科技有限公司</Company>
+    <PackageProjectUrl>http://www.cnblogs.com/codelove/</PackageProjectUrl>
+    <Authors>雪雁</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="aliyun-net-sdk-dysms" Version="1.0.6.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Magicodes.Sms.Core\Magicodes.Sms.Core.csproj" />
+  </ItemGroup>
+</Project>
