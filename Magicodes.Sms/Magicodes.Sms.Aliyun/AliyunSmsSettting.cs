@@ -37,6 +37,10 @@ namespace Magicodes.Sms.Aliyun
 
                 if (!configuration["Sms:Aliyun:OutId"].IsNullOrWhiteSpace())
                     this.OutId = configuration["Sms:Aliyun:OutId"];
+
+                if (!configuration["Sms:Aliyun:SendServerTemplateParam"].IsNullOrWhiteSpace())
+                    this.SendServerTemplateParam = configuration["Sms:Aliyun:SendServerTemplateParam"];
+                
             }
         }
 
@@ -72,6 +76,11 @@ namespace Magicodes.Sms.Aliyun
         /// 短信模板
         /// </summary>
         public string TemplateCode { get; set; }
+
+        /// <summary>
+        /// 发送服务类短信的模板id
+        /// </summary>
+        public string SendServerTemplateParam { get; set; }
 
         /// <summary>
         /// 模板参数
