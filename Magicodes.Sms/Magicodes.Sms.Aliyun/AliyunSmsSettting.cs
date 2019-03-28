@@ -38,9 +38,11 @@ namespace Magicodes.Sms.Aliyun
                 if (!configuration["Sms:Aliyun:OutId"].IsNullOrWhiteSpace())
                     this.OutId = configuration["Sms:Aliyun:OutId"];
 
-                if (!configuration["Sms:Aliyun:SendServerTemplateParam"].IsNullOrWhiteSpace())
-                    this.SendServerTemplateParam = configuration["Sms:Aliyun:SendServerTemplateParam"];
-                
+                if (!configuration["Sms:Aliyun:ServerTemplateCode"].IsNullOrWhiteSpace())
+                    this.ServerTemplateCode = configuration["Sms:Aliyun:ServerTemplateCode"];
+
+                if (!configuration["Sms:Aliyun:ServerTemplateParam"].IsNullOrWhiteSpace())
+                    this.ServerTemplateParam = configuration["Sms:Aliyun:ServerTemplateParam"];
             }
         }
 
@@ -78,14 +80,19 @@ namespace Magicodes.Sms.Aliyun
         public string TemplateCode { get; set; }
 
         /// <summary>
-        /// 发送服务类短信的模板id
-        /// </summary>
-        public string SendServerTemplateParam { get; set; }
-
-        /// <summary>
         /// 模板参数
         /// </summary>
         public string TemplateParam { get; set; } = "{{\"code\":\"{0}\"}}";
+
+        /// <summary>
+        /// 发送服务类短信的模板
+        /// </summary>
+        public string ServerTemplateCode { get; set; }
+
+        /// <summary>
+        /// 发送服务类短信的模板参数
+        /// </summary>
+        public string ServerTemplateParam { get; set; }
 
         /// <summary>
         /// outId为提供给业务方扩展字段,最终在短信回执消息中将此值带回给调用者。可选

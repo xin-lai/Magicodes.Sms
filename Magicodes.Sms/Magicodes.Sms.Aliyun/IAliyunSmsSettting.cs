@@ -12,9 +12,7 @@
         string SignName { get; set; }
         string TemplateCode { get; set; }
         string TemplateParam { get; set; }
-        /// <summary>
-        /// 发送服务消息短信的模板id
-        /// </summary>
-        string SendServerTemplateParam { get; set; }
+        string ServerTemplateCode { get; set; }
+        string ServerTemplateParam { get; set; }
     }
 }
