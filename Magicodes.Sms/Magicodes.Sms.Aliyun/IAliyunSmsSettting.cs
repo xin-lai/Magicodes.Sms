@@ -12,5 +12,7 @@
         string SignName { get; set; }
         string TemplateCode { get; set; }
         string TemplateParam { get; set; }
+        string ServerTemplateCode { get; set; }
+        string ServerTemplateParam { get; set; }
     }
 }

@@ -37,5 +37,13 @@ namespace Magicodes.Sms.Core
         /// <param name="message"></param>
         /// <returns></returns>
         Task<SendResult> SendTemplateMessageAsync(SendTemplateMessageInput message);
+
+        /// <summary>
+        /// 发送服务类的短信消息
+        /// </summary>
+        /// <param name="phone"></param>
+        /// <param name="message"></param>
+        /// <returns></returns>
+        Task<SendResult> SendServerMessageAsync(string phone, string message);
     }
 }
