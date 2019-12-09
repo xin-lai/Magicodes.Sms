@@ -32,7 +32,7 @@ namespace Magicodes.Sms.Core
         Task<SendResult> SendCodeAsync(string phone, string code);
 
         /// <summary>
-        ///     发送模板消息（适用于阿里大鱼等）
+        ///     发送模板消息
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>

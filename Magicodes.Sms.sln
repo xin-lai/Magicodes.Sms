@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magicodes.Sms.Core", "src\Magicodes.Sms.Core\Magicodes.Sms.Core.csproj", "{11BDB546-D533-4F4A-AA78-F13ED44A03AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11613A2F-9F74-4EC0-BCFD-BB06226CDA55}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magicodes.Sms.Aliyun", "src\Magicodes.Sms.Aliyun\Magicodes.Sms.Aliyun.csproj", "{AC4A1A67-63D8-40E4-ADBD-5390A847BB1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5D0E0F11-CF04-4809-8214-AF621D0D1E60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magicodes.Sms.Tests", "src\Magicodes.Sms.Tests\Magicodes.Sms.Tests.csproj", "{05D48140-EF6A-450E-817E-C8884934C3DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magicodes.Sms.Aliyun.Abp", "src\Magicodes.Sms.Aliyun.Abp\Magicodes.Sms.Aliyun.Abp.csproj", "{EA619B0C-5D4F-4E86-A269-23A6FDC44B72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magicodes.Sms.Abp.Tests", "src\Magicodes.Sms.Abp.Tests\Magicodes.Sms.Abp.Tests.csproj", "{31895101-AD89-4BCF-872D-8C7BBE0C4391}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11BDB546-D533-4F4A-AA78-F13ED44A03AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BDB546-D533-4F4A-AA78-F13ED44A03AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BDB546-D533-4F4A-AA78-F13ED44A03AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BDB546-D533-4F4A-AA78-F13ED44A03AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4A1A67-63D8-40E4-ADBD-5390A847BB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4A1A67-63D8-40E4-ADBD-5390A847BB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4A1A67-63D8-40E4-ADBD-5390A847BB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4A1A67-63D8-40E4-ADBD-5390A847BB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D48140-EF6A-450E-817E-C8884934C3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D48140-EF6A-450E-817E-C8884934C3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D48140-EF6A-450E-817E-C8884934C3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D48140-EF6A-450E-817E-C8884934C3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA619B0C-5D4F-4E86-A269-23A6FDC44B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA619B0C-5D4F-4E86-A269-23A6FDC44B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA619B0C-5D4F-4E86-A269-23A6FDC44B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA619B0C-5D4F-4E86-A269-23A6FDC44B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31895101-AD89-4BCF-872D-8C7BBE0C4391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31895101-AD89-4BCF-872D-8C7BBE0C4391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31895101-AD89-4BCF-872D-8C7BBE0C4391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31895101-AD89-4BCF-872D-8C7BBE0C4391}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05D48140-EF6A-450E-817E-C8884934C3DE} = {5D0E0F11-CF04-4809-8214-AF621D0D1E60}
+		{31895101-AD89-4BCF-872D-8C7BBE0C4391} = {5D0E0F11-CF04-4809-8214-AF621D0D1E60}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5CFD973-4A12-4FDB-84E3-F4926A5A781B}
+	EndGlobalSection
+EndGlobal
