@@ -36,7 +36,22 @@
     [DependsOn(typeof(AliyunSmsModule))]
 ````
 
-3. 使用短信API
+3. 配置
+
+默认支持两种配置方式，配置文件和SettingManager。下面以配置文件为例，格式为：
+
+````json
+{
+  "AliyunSmsSettings": {
+    "AccessKeyId": "",
+    "AccessKeySecret": "",
+    "SignName": "",
+    "TemplateCode": ""
+  } 
+}
+````
+
+4. 使用短信API
 
 通过容器获得ISmsTemplateSender，然后调用发送方法即可。如单元测试中：
 
