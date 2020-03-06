@@ -71,6 +71,13 @@
         }
 ````
 
+### 注意
+
+ABP Zero .NET Core 3.1版本并没有注入IConfiguration，如需使用，需要自行在启动类注入。例如：
+````C#
+services.AddSingleton<IConfiguration>(_appConfiguration);
+````
+
 ## 非ABP集成
 
 ### 配置
