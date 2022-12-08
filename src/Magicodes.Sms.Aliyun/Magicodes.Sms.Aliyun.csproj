@@ -18,7 +18,7 @@
   <ItemGroup>
     <PackageReference Include="aliyun-net-sdk-dysms" Version="1.0.6.2" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.0.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Magicodes.Sms.Core\Magicodes.Sms.Core.csproj" />
